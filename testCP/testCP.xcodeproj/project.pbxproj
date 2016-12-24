@@ -7,17 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF4BF2D01E0E747100E53727 /* testCP.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4BF2CF1E0E747100E53727 /* testCP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0AB93C1E0E953B00E6F69C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF0AB9361E0E953B00E6F69C /* Info.plist */; };
+		DF0AB93D1E0E953B00E6F69C /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0AB9371E0E953B00E6F69C /* Operator.swift */; };
+		DF0AB93E1E0E953B00E6F69C /* PopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0AB9391E0E953B00E6F69C /* PopoverViewController.storyboard */; };
+		DF0AB93F1E0E953B00E6F69C /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0AB93A1E0E953B00E6F69C /* PopoverViewController.swift */; };
+		DF0AB9411E0E957300E6F69C /* Operator.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF0AB9371E0E953B00E6F69C /* Operator.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0AB9421E0E957300E6F69C /* PopoverViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = DF0AB93A1E0E953B00E6F69C /* PopoverViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF4BF2CC1E0E747100E53727 /* testCP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = testCP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF4BF2CF1E0E747100E53727 /* testCP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testCP.h; sourceTree = "<group>"; };
-		DF4BF2D11E0E747100E53727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0AB91F1E0E94A000E6F69C /* testCP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = testCP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0AB9361E0E953B00E6F69C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0AB9371E0E953B00E6F69C /* Operator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		DF0AB9391E0E953B00E6F69C /* PopoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopoverViewController.storyboard; sourceTree = "<group>"; };
+		DF0AB93A1E0E953B00E6F69C /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF4BF2C81E0E747100E53727 /* Frameworks */ = {
+		DF0AB91B1E0E94A000E6F69C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -27,53 +34,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF4BF2C21E0E747100E53727 = {
+		DF0AB9151E0E94A000E6F69C = {
 			isa = PBXGroup;
 			children = (
-				DF4BF2CE1E0E747100E53727 /* testCP */,
-				DF4BF2CD1E0E747100E53727 /* Products */,
+				DF0AB9351E0E953B00E6F69C /* Sources */,
+				DF0AB9201E0E94A000E6F69C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF4BF2CD1E0E747100E53727 /* Products */ = {
+		DF0AB9201E0E94A000E6F69C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF4BF2CC1E0E747100E53727 /* testCP.framework */,
+				DF0AB91F1E0E94A000E6F69C /* testCP.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF4BF2CE1E0E747100E53727 /* testCP */ = {
+		DF0AB9351E0E953B00E6F69C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DF4BF2CF1E0E747100E53727 /* testCP.h */,
-				DF4BF2D11E0E747100E53727 /* Info.plist */,
+				DF0AB9361E0E953B00E6F69C /* Info.plist */,
+				DF0AB9371E0E953B00E6F69C /* Operator.swift */,
+				DF0AB9381E0E953B00E6F69C /* Popover */,
 			);
-			path = testCP;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DF0AB9381E0E953B00E6F69C /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				DF0AB9391E0E953B00E6F69C /* PopoverViewController.storyboard */,
+				DF0AB93A1E0E953B00E6F69C /* PopoverViewController.swift */,
+			);
+			path = Popover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DF4BF2C91E0E747100E53727 /* Headers */ = {
+		DF0AB91C1E0E94A000E6F69C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF4BF2D01E0E747100E53727 /* testCP.h in Headers */,
+				DF0AB9411E0E957300E6F69C /* Operator.swift in Headers */,
+				DF0AB9421E0E957300E6F69C /* PopoverViewController.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DF4BF2CB1E0E747100E53727 /* testCP */ = {
+		DF0AB91E1E0E94A000E6F69C /* testCP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF4BF2D41E0E747100E53727 /* Build configuration list for PBXNativeTarget "testCP" */;
+			buildConfigurationList = DF0AB9271E0E94A000E6F69C /* Build configuration list for PBXNativeTarget "testCP" */;
 			buildPhases = (
-				DF4BF2C71E0E747100E53727 /* Sources */,
-				DF4BF2C81E0E747100E53727 /* Frameworks */,
-				DF4BF2C91E0E747100E53727 /* Headers */,
-				DF4BF2CA1E0E747100E53727 /* Resources */,
+				DF0AB91A1E0E94A000E6F69C /* Sources */,
+				DF0AB91B1E0E94A000E6F69C /* Frameworks */,
+				DF0AB91C1E0E94A000E6F69C /* Headers */,
+				DF0AB91D1E0E94A000E6F69C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,62 +99,66 @@
 			);
 			name = testCP;
 			productName = testCP;
-			productReference = DF4BF2CC1E0E747100E53727 /* testCP.framework */;
+			productReference = DF0AB91F1E0E94A000E6F69C /* testCP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF4BF2C31E0E747100E53727 /* Project object */ = {
+		DF0AB9161E0E94A000E6F69C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = hexi;
 				TargetAttributes = {
-					DF4BF2CB1E0E747100E53727 = {
+					DF0AB91E1E0E94A000E6F69C = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
-			buildConfigurationList = DF4BF2C61E0E747100E53727 /* Build configuration list for PBXProject "testCP" */;
+			buildConfigurationList = DF0AB9191E0E94A000E6F69C /* Build configuration list for PBXProject "testCP" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = DF4BF2C21E0E747100E53727;
-			productRefGroup = DF4BF2CD1E0E747100E53727 /* Products */;
+			mainGroup = DF0AB9151E0E94A000E6F69C;
+			productRefGroup = DF0AB9201E0E94A000E6F69C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF4BF2CB1E0E747100E53727 /* testCP */,
+				DF0AB91E1E0E94A000E6F69C /* testCP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF4BF2CA1E0E747100E53727 /* Resources */ = {
+		DF0AB91D1E0E94A000E6F69C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0AB93E1E0E953B00E6F69C /* PopoverViewController.storyboard in Resources */,
+				DF0AB93C1E0E953B00E6F69C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF4BF2C71E0E747100E53727 /* Sources */ = {
+		DF0AB91A1E0E94A000E6F69C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0AB93F1E0E953B00E6F69C /* PopoverViewController.swift in Sources */,
+				DF0AB93D1E0E953B00E6F69C /* Operator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DF4BF2D21E0E747100E53727 /* Debug */ = {
+		DF0AB9251E0E94A000E6F69C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -185,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		DF4BF2D31E0E747100E53727 /* Release */ = {
+		DF0AB9261E0E94A000E6F69C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,32 +249,39 @@
 			};
 			name = Release;
 		};
-		DF4BF2D51E0E747100E53727 /* Debug */ = {
+		DF0AB9281E0E94A000E6F69C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = testCP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexi.testCP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		DF4BF2D61E0E747100E53727 /* Release */ = {
+		DF0AB9291E0E94A000E6F69C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = testCP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexi.testCP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -262,24 +291,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF4BF2C61E0E747100E53727 /* Build configuration list for PBXProject "testCP" */ = {
+		DF0AB9191E0E94A000E6F69C /* Build configuration list for PBXProject "testCP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF4BF2D21E0E747100E53727 /* Debug */,
-				DF4BF2D31E0E747100E53727 /* Release */,
+				DF0AB9251E0E94A000E6F69C /* Debug */,
+				DF0AB9261E0E94A000E6F69C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF4BF2D41E0E747100E53727 /* Build configuration list for PBXNativeTarget "testCP" */ = {
+		DF0AB9271E0E94A000E6F69C /* Build configuration list for PBXNativeTarget "testCP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF4BF2D51E0E747100E53727 /* Debug */,
-				DF4BF2D61E0E747100E53727 /* Release */,
+				DF0AB9281E0E94A000E6F69C /* Debug */,
+				DF0AB9291E0E94A000E6F69C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF4BF2C31E0E747100E53727 /* Project object */;
+	rootObject = DF0AB9161E0E94A000E6F69C /* Project object */;
 }
